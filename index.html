@@ -9,10 +9,33 @@
     </head>
   <body>
     <h2>Which Celeb is Right for YOU?!</h2>
+    <form id="formg">
+      <select id="gender" class="form-control">
+        <option>Seeking:</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+      <select id="childHood" class="form-control">
+        <option>Were you dropped as a child?:</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+        <option value="maybe">Maybe</option>
+      </select>
+      <select id="astro" class="form-control">
+        <option>What is your astrological sign?:</option>
+        <option value="mars">Mars</option>
+        <option value="pluto">Pluto</option>
+        <option value="venus">Venus</option>
+      </select>
+      <button type="submit" name="button">submit and see tour match!</button>
+    </form>
+
   <div class="container">
+    <div class="row">
     <div class="male">
+      <div class="col-md-6">
       <div class="opt1">
-        <img src="img/ashton.jpeg" alt="Ashton Kutcher" />
+        <img id="ashton"src="img/ashton.jpeg" alt="Ashton Kutcher" />
       </div>
       <div class="opt2">
         <img src="img/brad.jpeg" alt="Brad Pitt" />
@@ -21,15 +44,19 @@
         <img src="img/tomcruise.jpeg" alt="Tom Cruise" />
       </div>
       </div>
-    <div class="female">
+    </div>
+      <div class="female">
+      <div class="col-md-6">
       <div class="opt1">
-        <img src="img/demi.jpeg" alt="Demi Lovato" />
+        <img id="demi" src="img/demi.jpeg" alt="Demi Lovato" />
       </div>
       <div class="opt2">
         <img src="img/jessica.jpeg" alt="Jessica Alba" />
       </div>
       <div class="opt3">
         <img src="img/meagan.jpeg" alt="Megan Fox" />
+      </div>
+      </div>
       </div>
     </div>
   </div>
